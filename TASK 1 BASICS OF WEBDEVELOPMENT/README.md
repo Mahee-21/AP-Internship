@@ -25,6 +25,7 @@ Welcome to **Café de Dreams — 🍰**, a visually pleasing and user-friendly w
 
 🌸 dream-cafe/
 ├── 📄 index.html
+
 ├── 🎨 style.css
 ├── ⚙️ script.js
 ├── 🖼️ assets/
