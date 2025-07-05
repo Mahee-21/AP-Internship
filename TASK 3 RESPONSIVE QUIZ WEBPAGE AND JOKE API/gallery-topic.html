@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery Topic</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="topic-gallery-page">
+    <div class="bg-blur-img"></div>
+
+    <div class="topic-header">
+        <h2 id="category-title">Gallery</h2>
+        <a href="gallery.html" class="btn back-btn">← Return to Universe</a>
+    </div>
+
+    <div class="image-grid" id="image-grid">
+        <!-- Lightbox Popup -->
+        <div id="lightbox" class="lightbox">
+            <span class="close">&times;</span>
+            <img class="lightbox-img" id="lightbox-img" src="" alt="">
+            <div class="lightbox-nav">
+                <span class="prev">&#10094;</span>
+                <span class="next">&#10095;</span>
+            </div>
+        </div>
+
+        <!-- Images will be inserted dynamically based on the category -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
