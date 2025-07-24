@@ -1,0 +1,86 @@
+<!-- occasions.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lumière | Shop by Occasion</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="navbar">
+    <div class="logo">Lumière</div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collections.html">Collections</a></li>
+        <li><a href="occasions.html" class="active">Occasions</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="occasions-hero">
+    <h1>✨ Shop by Occasion</h1>
+    <p>Find the perfect sparkle for every milestone</p>
+  </section>
+
+  <section class="occasion-grid">
+    <!-- Occasion cards -->
+    <div class="occasion-card">
+      <div class="lottie-box" id="birthdayLottie"></div>
+      <h3>Birthday Bliss</h3>
+      <p>Celebrate their special day with sparkles as unique as them.</p>
+      <a href="#" class="btn-outline">View Picks</a>
+    </div>
+
+    <div class="occasion-card">
+      <div class="lottie-box" id="anniversaryLottie"></div>
+      <h3>Anniversary Glow</h3>
+      <p>Timeless tokens of love for your forever person.</p>
+      <a href="#" class="btn-outline">View Picks</a>
+    </div>
+
+    <div class="occasion-card">
+      <div class="lottie-box" id="selfLoveLottie"></div>
+      <h3>Self-Love Spark</h3>
+      <p>Treat yourself. Because you deserve to shine every day.</p>
+      <a href="#" class="btn-outline">View Picks</a>
+    </div>
+
+    <!-- Add more if needed -->
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Lumière Jewelry. Crafted with love & sparkle.</p>
+  </footer>
+
+  <script>
+    // Load Lottie animations for each occasion
+    lottie.loadAnimation({
+      container: document.getElementById('birthdayLottie'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'assets/lottie/birthday.json'
+    });
+
+    lottie.loadAnimation({
+      container: document.getElementById('anniversaryLottie'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'assets/lottie/anniversary.json'
+    });
+
+    lottie.loadAnimation({
+      container: document.getElementById('selfLoveLottie'),
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: 'assets/lottie/selflove.json'
+    });
+  </script>
+</body>
+</html>

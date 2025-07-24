@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumière – Collections</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="navbar">
+        <div class="logo">Lumière</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="collections.html" class="active">Collections</a></li>
+                <li><a href="occasions.html">Occasions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="collections-heading">
+        <h1>All Collections</h1>
+        <p>Explore our timeless, elegant, and handpicked pieces.</p>
+    </section>
+
+
+    <section class="product-grid">
+        <!-- Example Product -->
+        <div class="product-card" data-name="Rose Gold Ring" data-price="₹3,499"
+            data-desc="Elegant rose gold band with crystal inlay.">
+            <div class="lottie-sparkle" data-lottie></div>
+            <img src="assets/images/ring1.jpg" alt="Rose Gold Ring">
+            <div class="product-info">
+                <h3>Rose Gold Ring</h3>
+                <p>₹3,499</p>
+            </div>
+            <div class="product-actions">
+                <span class="wishlist">♡</span>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-name="Golden Elegance Ring" data-price="₹5,499"
+            data-desc="Elegant rose gold band with crystal inlay.">
+            <div class="lottie-sparkle" data-lottie></div>
+            <img src="assets/images/ring2.jpg" alt="Golden Elegance Ring">
+            <div class="product-info">
+                <h3>Golden Elegance Ring</h3>
+                <p>₹5,499</p>
+            </div>
+            <div class="product-actions">
+                <span class="wishlist">♡</span>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-name="Pearl Drop Earrings" data-price="₹3,450"
+            data-desc="Elegant rose gold band with crystal inlay.">
+            <div class="lottie-sparkle" data-lottie></div>
+            <img src="assets/images/ring3.jpg" alt="Pearl Drop Earrings">
+            <div class="product-info">
+                <h3>Pearl Drop Earrings</h3>
+                <p>₹3,450</p>
+            </div>
+            <div class="product-actions">
+                <span class="wishlist">♡</span>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-name="Crystal Bloom Necklace" data-price="₹7,250"
+            data-desc="Elegant rose gold band with crystal inlay.">
+            <div class="lottie-sparkle" data-lottie></div>
+            <img src="assets/images/ring4.jpg" alt="Crystal Bloom Necklace">
+            <div class="product-info">
+                <h3>Crystal Bloom Necklace</h3>
+                <p>₹7,250</p>
+            </div>
+            <div class="product-actions">
+                <span class="wishlist">♡</span>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-name="Twilight Bracelet" data-price="₹4,600"
+            data-desc="Elegant rose gold band with crystal inlay.">
+            <div class="lottie-sparkle" data-lottie></div>
+            <img src="assets/images/ring5.jpg" alt="Twilight Bracelet">
+            <div class="product-info">
+                <h3>Twilight Bracelet</h3>
+                <p>₹4,600</p>
+            </div>
+            <div class="product-actions">
+                <span class="wishlist">♡</span>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-name="Rose Halo Ring" data-price="₹6,499"
+            data-desc="Elegant rose gold band with crystal inlay.">
+            <div class="lottie-sparkle" data-lottie></div>
+            <img src="assets/images/ring6.jpg" alt="Rose Halo Ring">
+            <div class="product-info">
+                <h3>Rose Halo Ring</h3>
+                <p>₹6,499</p>
+            </div>
+            <div class="product-actions">
+                <span class="wishlist">♡</span>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+        <div class="product-card" data-name="Gemstone Sparkle Studs" data-price="₹2,899"
+            data-desc="Elegant rose gold band with crystal inlay.">
+            <div class="lottie-sparkle" data-lottie></div>
+            <img src="assets/images/ring7.jpg" alt="Gemstone Sparkle Studs">
+            <div class="product-info">
+                <h3>Gemstone Sparkle Studs</h3>
+                <p>₹2,899</p>
+            </div>
+            <div class="product-actions">
+                <span class="wishlist">♡</span>
+                <button class="add-cart">Add to Cart</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- 🔎 Modal -->
+    <div id="product-modal" class="modal hidden">
+        <div class="modal-content glass">
+            <span class="close">&times;</span>
+            <img id="modal-img" src="" alt="">
+            <h2 id="modal-title"></h2>
+            <p id="modal-price"></p>
+            <p id="modal-desc"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Lumière. All rights reserved.</p>
+        <div class="socials">
+            <a href="#"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+            <a href="#"><img src="assets/icons/facebook.svg" alt="Facebook" /></a>
+        </div>
+    </footer>
+
+    <script src="js/scroll.js"></script>
+    <script src="js/collections.js"></script>
+
+</body>
+
+</html>
